@@ -49,7 +49,7 @@
     <script>
         async function fetchJackpot() {
             try {
-                const response = await fetch('https://ticker.rafflebox.ca/2024-2025-bbk');
+                const response = await fetch('https://cors-anywhere.herokuapp.com/https://ticker.rafflebox.ca/2024-2025-bbk');
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
