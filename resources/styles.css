@@ -31,8 +31,8 @@ body {
 
 /* Jackpot box styles */
 .jackpot-box {
-    width: 50vw; /* 75% of the viewport width */
-    height: 50vh; /* 75% of the viewport height */
+    width: 60vw; /* 60% of the viewport width */
+    height: 60vh; /* 60% of the viewport height */
     background-color: #ffffff; /* White background */
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@ body {
 
 /* Jackpot text styles */
 .jackpot-box h1 {
-    font-size: 15vw; /* Dynamically take up 75% of the box's height */
+    font-size: 17vw; 
     color: #aa9d71; /* Set jackpot number color */
     margin: 0;
     text-align: center;
