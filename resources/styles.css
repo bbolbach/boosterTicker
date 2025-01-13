@@ -44,7 +44,6 @@ body {
 
 /* Jackpot text styles */
 .jackpot-box h1 {
-    font-size: 19vw; 
     color: #aa9d71; /* Set jackpot number color */
     margin: 0;
     text-align: center;
@@ -53,3 +52,4 @@ body {
     white-space: nowrap; /* Prevent text from wrapping */
     overflow: hidden; /* Clip text if necessary */
 }
+
